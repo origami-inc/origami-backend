@@ -9,4 +9,14 @@
 
 Once inside container, the dependencies will be installed, the database will be ready to use and the migrations will run :tada:
 
+You need to create a `.env` file on the root of project with the database information, like this:
+
+```
+DB_USER=postgres
+DB_HOST=localhost
+DB_PASSWORD=postgres
+DB_NAME=postgres
+NODE_ENV=development
+```
+
 Now you just type `yarn dev` on terminal and be happy coding :wink:
