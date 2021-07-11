@@ -1,6 +1,6 @@
 {
   "name": "origami-backend",
-  "version": "v0.0.1",
+  "version": "v0.0.2",
   "description": "Awesome project developed with TypeORM.",
   "main": "index.js",
   "author": "NathanAlcantara, IaraOliveira",
