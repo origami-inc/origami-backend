@@ -24,6 +24,12 @@
     "migration:run": "yarn typeorm:cli migration:run",
     "migration:revert": "yarn typeorm:cli migration:revert"
   },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "prettier-eslint --write --prettier-last",
+      "eslint --cache"
+    ]
+  },
   "devDependencies": {
     "@types/express": "^4.17.13",
     "@types/node": "^8.0.29",
@@ -62,11 +68,5 @@
     "typescript",
     "nodejs",
     "typeorm"
-  ],
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "prettier-eslint --write --prettier-last",
-      "eslint --cache"
-    ]
-  }
+  ]
 }
