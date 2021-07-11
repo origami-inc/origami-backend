@@ -8,7 +8,7 @@ on:
       - closed
 
 jobs:
-release:
+  release:
     name: Publish snapshot
     runs-on: ubuntu-latest
     if: github.event.pull_request.merged == true # only merged pull requests must trigger this job
