@@ -2,7 +2,7 @@ name: "Compile and Test"
 
 on:
   push:
-    branches: [feature/**, bugfix/**]
+    branches: [feature/**, bugfix/**, release/**, hotfix/**]
 
 jobs:
   build:
