@@ -17,6 +17,7 @@
     "build": "rimraf ./build && tsc",
     "start": "cross-env NODE_ENV=production ts-node build/index.js",
     "dev": "nodemon -w src --ext ts --exec ts-node src/index.ts",
+    "test": "echo 'No Testes'",
     "typeorm:cli": "ts-node ./node_modules/typeorm/cli -f ./ormconfig.ts",
     "migration:generate": "yarn typeorm:cli migration:generate",
     "migration:create": "yarn typeorm:cli migration:create",
