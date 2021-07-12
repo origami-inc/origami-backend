@@ -26,12 +26,12 @@
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-		"eamodio.gitlens",
 		"dbaeumer.vscode-eslint",
-		"esbenp.prettier-vscode",
-		"graphql.vscode-graphql",
 		"mtxr.sqltools",
 		"mtxr.sqltools-driver-pg",
+		"esbenp.prettier-vscode",
+		"graphql.vscode-graphql",
+		"eamodio.gitlens",
 		"streetsidesoftware.code-spell-checker",
 		"streetsidesoftware.code-spell-checker-portuguese-brazilian",
 	],
